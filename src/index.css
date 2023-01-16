@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(245, 245, 245);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+form {
+  padding:60px;
+  margin-top: 80px;
+}
+
+form button, form h5{
+  margin: 20px 0;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  border-color: #ec407a;
+  box-shadow: none;
+}
+
+.brand-logo{
+  padding: 0px;
+
+}
+
+.brand-logo>img {
+  height: 60px;
+  padding: 0px;
+  width: auto; 
+  transform: translate(15px, 2px) ;
+    
+}
+
+.contain {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.findbtn {
+  width: 500px
+}
+
+.fail{
+  /* white-space: nowrap;
+   overflow: hidden;
+  text-overflow: "----";
+  align-content: center;
+  transform: translate(-275px, 50px) ;
+  display: block; */
+  text-align: center;
+  margin: auto;
+  width: 50%;
+
+
+}
+
+
+/* this hides the value in the drop down list options */
+/* .hide {
+  display: none;
+} */
+
+
+/* This shows the selected value */
+.select-value.hide {
+  display: inherit !important;
+} 
+
+thead{
+  background-color: #3f87a6;
+    color: #fff;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 5px 10px;
+    text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border: 5px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: .8rem;
+  margin: auto;
+  padding: 5px;
+  width: 75%;
+
+}
+
+.full {
+  color: royalblue;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 25px;
+}
+
+
+.upload{
+  padding: 40px;
+  margin: auto;
+  align-content: center;
+  width: 500px;
+  color: #ec407a;
+}
+
+.buttons {
+  width: 100%;
+  padding-left: 20px;
+}
